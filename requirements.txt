@@ -1,0 +1,15 @@
+Flask==1.1.2
+Jinja2==2.10.1
+gunicorn==19.9.0
+certifi==2019.11.28
+itsdangerous==1.1.0
+requests==2.24.0
+nltk==3.5
+scikit-learn==0.23.1
+pandas==1.0.4
+numpy==1.18.5
+pickle-mixin==1.0.2
+bs4==0.0.1
+joblib==0.15.1
+regex==2020.6.8
+flask-ngrok==0.0.25

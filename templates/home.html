@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fake News Classifier</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+  
+</head>
+
+<body>
+<div class='heads'>
+<h1 style="text-align: left;">Fake News Classifier</h1>
+</div>
+ <div class="login">
+	<h2>Predict if a news article is reliable or not</h2>
+
+     <!-- Form to enter new data for predictions  -->
+    <form action="{{ url_for('predict')}}"method="POST">
+     <!--- <input type="text" name="article" placeholder="Enter the article" required="required" /><br>-->
+	<textarea rows = "15" cols = "50"name="article" placeholder="Enter the article" required="required"></textarea>
+	<br><br>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+	or
+    <form action="{{ url_for('predict_url')}}"method="POST">
+	<input type="text" name="url1" placeholder="Enter the website url "/><br>
+    <button type="submit" class="btn btn-primary btn-block btn-large">Predict from URL</button>
+    </form><br>Made with &#9829; by Vihar Devalla
+ </div>
+
+ {{pred}}
+</body>
+</html>
