@@ -25,8 +25,8 @@ https://github.com/ViharDevalla/fakenews-classifier/raw/master/logregmodel4.pkl
 ```
 https://github.com/ViharDevalla/fakenews-classifier/raw/master/tfidf4.pkl
 ```
---- (If this step fails , download the files from [here](https://drive.google.com/drive/folders/1pI-0nKlveqZkmJWgShMpN6WHv0JWObMu?usp=sharing))    
-
+--- (If this step fails , download the files from [here](https://drive.google.com/drive/folders/1pI-0nKlveqZkmJWgShMpN6WHv0JWObMu?usp=sharing))   
+\
 3. Install the requirement files from pip or similar 
 ```python
 pip3 install -r requirements.txt
