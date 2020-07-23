@@ -14,21 +14,21 @@ Pickle \
 BeautifulSoup 
 
 #### Instructions for using the model in webpage
-Clone this repository 
+1. Clone this repository 
 ```
 git clone https://github.com/ViharDevalla/fakenews-classifier.git
 ```
-Copy the logrecmodel4.pkl and tfidf4.pkl seperately from the repo(as these are git LFS files)
+2. Copy the ***logrecmodel4.pkl*** and ***tfidf4.pkl*** seperately from the repo(as these are git LFS files)
 
-Install the requirement files from pip or similar 
+3. Install the requirement files from pip or similar 
 ```python
 pip3 install -r requirements.txt
 ```
-Run app.py 
+4. Run app.py 
 ```
 python3 app.py
 ```
-If ngrok doesnt work, comment it will run in localhost instead
+5. If ngrok doesnt work, comment it will run in localhost instead
 ```
 #run_with_ngrok(app)
 ```
