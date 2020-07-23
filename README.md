@@ -23,7 +23,7 @@ git clone https://github.com/ViharDevalla/fakenews-classifier.git
 https://github.com/ViharDevalla/fakenews-classifier/raw/master/logregmodel4.pkl
 ```
 ```
-https://github.com/ViharDevalla/fakenews-classifier/raw/master/tfidf44.pkl
+https://github.com/ViharDevalla/fakenews-classifier/raw/master/tfidf4.pkl
 ```
 3. Install the requirement files from pip or similar 
 ```python
