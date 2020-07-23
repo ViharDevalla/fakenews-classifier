@@ -18,8 +18,9 @@ BeautifulSoup
 ```
 git clone https://github.com/ViharDevalla/fakenews-classifier.git
 ```
-2. Copy the ***logrecmodel4.pkl*** and ***tfidf4.pkl*** seperately from the repo(as these are git LFS files)
-
+2. Download the ***logrecmodel4.pkl*** and ***tfidf4.pkl*** seperately from the repo(as these are git LFS files)
+```https://github.com/ViharDevalla/fakenews-classifier/raw/master/logregmodel4.pkl```
+```https://github.com/ViharDevalla/fakenews-classifier/raw/master/tfidf44.pkl```
 3. Install the requirement files from pip or similar 
 ```python
 pip3 install -r requirements.txt
