@@ -18,7 +18,7 @@ Clone this repository
 ```
 git clone https://github.com/ViharDevalla/fakenews-classifier.git
 ```
-Copy the logrec4.pkl and tfidf4.pkl seperately from the repo
+Copy the logrecmodel4.pkl and tfidf4.pkl seperately from the repo(as these are git LFS files)
 
 Install the requirement files from pip or similar 
 ```python
